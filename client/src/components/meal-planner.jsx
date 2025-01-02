@@ -5,7 +5,7 @@ import { Coffee, UtensilsCrossed, ChefHat } from 'lucide-react'
 import { foodData } from '@/data/food.js'
 
 const MealPlanner = () => {
-    const [selectedDay, setSelectedDay] = useState('Monday')  
+    const [selectedDay, setSelectedDay] = useState('Monday')
 
     const handleDayChange = (value) => {
         setSelectedDay(value)
@@ -32,24 +32,27 @@ const MealPlanner = () => {
                 <MealCard
                     title="Breakfast"
                     icon={<Coffee className="h-6 w-6" />}
-                    items={foodData[selectedDay].breakfast}
+                    items={foodData[selectedDay].breakfast.items}
+                    image={foodData[selectedDay].breakfast.image}
                 />
                 <MealCard
                     title="Lunch"
                     icon={<UtensilsCrossed className="h-6 w-6" />}
-                    items={foodData[selectedDay].lunch}
+                    items={foodData[selectedDay].lunch.items}
+                    image={foodData[selectedDay].lunch.image}
                 />
                 <MealCard
                     title="Dinner"
                     icon={<ChefHat className="h-6 w-6" />}
-                    items={foodData[selectedDay].dinner}
+                    items={foodData[selectedDay].dinner.items}
+                    image={foodData[selectedDay].dinner.image}
                 />
             </div>
         </div>
     )
 }
 
-function MealCard({ title, icon, items }) {
+const MealCard = ({ title, icon, items, image }) => {
     return (
         <Card>
             <CardHeader>
@@ -59,6 +62,8 @@ function MealCard({ title, icon, items }) {
                 </CardTitle>
             </CardHeader>
             <CardContent>
+                <img src={image} alt={title} className="w-full h-64 rounded-md mb-4" />
+
                 <ul className="list-disc list-inside space-y-2">
                     {items.map((item, index) => (
                         <li key={index}>{item}</li>
