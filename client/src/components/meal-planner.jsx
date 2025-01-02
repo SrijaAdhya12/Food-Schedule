@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Coffee, UtensilsCrossed, ChefHat } from 'lucide-react'
 import { foodData } from '@/data/food.js'
+import { ModeToggle } from './mode-toggle'
 
 const MealPlanner = () => {
     const [selectedDay, setSelectedDay] = useState('Monday')
@@ -15,7 +16,7 @@ const MealPlanner = () => {
         <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold text-center mb-8">Weekly Meal Planner</h1>
 
-            <div className="mb-8">
+            <div className="mb-8 flex sm:justify-between gap-4 items-center">
                 <Select onValueChange={handleDayChange} defaultValue={selectedDay}>
                     <SelectTrigger className="w-full sm:w-[180px]">
                         <SelectValue placeholder="Select a day" />
@@ -26,6 +27,7 @@ const MealPlanner = () => {
                         ))}
                     </SelectContent>
                 </Select>
+                <ModeToggle/>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

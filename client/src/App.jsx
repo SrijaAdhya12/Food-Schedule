@@ -1,9 +1,10 @@
 import { ThemeProvider } from "@/components/theme-provider"
-import { MealPlanner } from "@/components"
+import { Home } from "@/pages"
+
 const App = ({ children }) => {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <MealPlanner />
+      <Home/>
       {children}
     </ThemeProvider>
   )
