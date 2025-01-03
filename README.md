@@ -4,7 +4,7 @@
     <a href="https://github.com/SrijaAdhya12/Food-Schedule">
         <img width="200" src="https://cdn-icons-png.flaticon.com/512/8382/8382732.png" alt="Food-Schedule">
     </a>
-    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A good one liner description here </p>
+    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A daily track of diet </p>
     <a src="https://github.com/SrijaAdhya12/Food-Schedule/forks">
         <img alt="GitHub forks" src="https://img.shields.io/github/forks/SrijaAdhya12/Food-Schedule">
     </a>
