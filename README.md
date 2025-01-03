@@ -12,6 +12,7 @@
 
 # [Food Schedule](https://github.com/SrijaAdhya12/Food-Schedule)
 
+![line]
 
 ## Table of Contents
 
