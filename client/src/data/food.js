@@ -95,7 +95,7 @@ export const foodData = {
 			image: biriyani
 		},
 		dinner: {
-			items: ['Roast beef', 'Yorkshire pudding', 'Roasted carrots'],
+			items: ['Rice', 'Chicken Curry', 'Lunch left over'],
 			image: chickencurry
 		}
 	}
