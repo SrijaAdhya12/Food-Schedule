@@ -1,22 +1,24 @@
+import { yellowrice,suji,ruti,dosa,samosa,pakora,rice,rutibhindi,biriyani,chickencurry } from "../assets";
+
 export const foodData = {
 	Monday: {
 		breakfast: {
-			items: ['Oatmeal with berries', 'Greek yogurt', 'Whole grain toast'],
-			image: 'https://www.lemonblossoms.com/wp-content/uploads/2019/11/How-To-Cook-White-Rice-6-500x375.jpg'
+			items: ['Suji', 'Tea', 'Chutni'],
+			image: suji
 		},
 		lunch: {
 			items: ['Grilled chicken salad', 'Quinoa bowl', 'Vegetable soup'],
 			image: 'https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2823%2Ftrend20200504161425.jpg'
 		},
 		dinner: {
-			items: ['Baked salmon', 'Roasted vegetables', 'Brown rice'],
-			image: 'https://cdn.tarladalal.com/td_cont_img/Padvali-Roti.JPG'
+			items: ['Ruti', 'Sabji', 'Chaana'],
+			image: rutibhindi
 		}
 	},
 	Tuesday: {
 		breakfast: {
-			items: ['Scrambled eggs', 'Avocado toast', 'Fresh fruit'],
-			image: 'https://cdn2.foodviva.com/static-content/food-images/andhra-recipes/kobbari-pachadi/kobbari-pachadi.jpg'
+			items: ['Yellow rice', 'Sambar', 'Tea'],
+			image: yellowrice
 		},
 		lunch: {
 			items: ['Turkey sandwich', 'Mixed green salad', 'Hummus with carrots'],
@@ -71,8 +73,8 @@ export const foodData = {
 	},
 	Saturday: {
 		breakfast: {
-			items: ['French toast', 'Whipped cream', 'Strawberries'],
-			image: 'https://blog.suvie.com/wp-content/uploads/2021/07/3291396228_9257d6152a_b.jpg'
+			items: ['dosa', 'Whipped cream', 'Strawberries'],
+			image: dosa
 		},
 		lunch: {
 			items: ['Margherita pizza', 'Caesar salad', 'Iced tea'],
@@ -90,11 +92,11 @@ export const foodData = {
 		},
 		lunch: {
 			items: ['Grilled cheese sandwich', 'Tomato soup', 'Pickle'],
-			image: 'https://vismaifood.com/storage/app/uploads/public/177/810/260/thumb__1200_0_0_0_auto.jpg'
+			image: biriyani
 		},
 		dinner: {
 			items: ['Roast beef', 'Yorkshire pudding', 'Roasted carrots'],
-			image: 'https://www.yummytummyaarthi.com/wp-content/uploads/2022/06/chicken-gravy-32.jpeg'
+			image: chickencurry
 		}
 	}
 }
