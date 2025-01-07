@@ -64,7 +64,7 @@ const MealCard = ({ title, icon, items, image }) => {
                 </CardTitle>
             </CardHeader>
             <CardContent>
-                <img src={image} alt={title} className="w-full h-72 rounded-md mb-4" />
+                <img src={image} alt={title} className="w-full h-72 rounded-md mb-4 object-cover" />
 
                 <ul className="list-disc list-inside space-y-2">
                     {items.map((item, index) => (

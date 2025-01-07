@@ -8,3 +8,4 @@ export { default as yellowrice } from "./yellowrice.jpg";
 export { default as rutibhindi } from "./rutibhindi.jpg";
 export { default as biriyani } from "./biriyani.jpg"
 export { default as chickencurry } from "./chickencurry.jpg"
+export {default as wednesdaylunch} from "./wednesdaylunch.jpg"

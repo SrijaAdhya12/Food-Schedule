@@ -1,4 +1,4 @@
-import { yellowrice,suji,ruti,dosa,samosa,pakora,rice,rutibhindi,biriyani,chickencurry } from "../assets";
+import { yellowrice,suji,ruti,dosa,samosa,pakora,rice,rutibhindi,biriyani,chickencurry,wednesdaylunch } from "../assets";
 
 export const foodData = {
 	Monday: {
@@ -35,12 +35,12 @@ export const foodData = {
 			image: 'https://oursaltykitchen.com/wp-content/uploads/2022/02/breakfast-fried-rice-featured-image-500x375.jpg'
 		},
 		lunch: {
-			items: ['Tuna wrap', 'Cucumber slices', 'Apple'],
-			image: 'https://eatingrichly.com/wp-content/uploads/2018/05/rice-bowl-recipes-6233-720x540.jpg'
+			items: ['Rice', 'Daal', 'Channa'],
+			image: wednesdaylunch
 		},
 		dinner: {
-			items: ['Grilled steak', 'Mashed potatoes', 'Asparagus'],
-			image: 'https://www.seriouseats.com/thmb/q8lfl3Hvjn1moUygKMQ2ySQsNWw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__04__20140416-tamago-kake-gohan-recipe-14-e339a32c00a749a69c8734671068dbdf.jpg'
+			items: ['Ruti', 'Egg Rice', 'Egg'],
+			image: ruti
 		}
 	},
 	Thursday: {
