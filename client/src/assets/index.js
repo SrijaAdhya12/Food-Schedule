@@ -14,4 +14,9 @@ export { default as tuesdaydinner } from './tuesdaydinner.webp'
 export { default as thursdaydinner } from './thursdaydinner.jpg'
 export { default as sundaybreak } from "./sundaybreak.jpg"
 export { default as fridaybreak } from "./fridaybreak.jpg"
-export {default as fridaydinner} from "./fridaydinner.jpg"
+export { default as fridaydinner } from "./fridaydinner.jpg"
+export { default as wedsnack } from "./wedsnack.jpg"
+export { default as mondaysnack } from "./mondaysnack.jpg"
+export { default as tuesdaysnack } from "./tuesdaysnack.jpg"
+export { default as wedbreak } from "./wedbreak.jpg"
+export {default as thursdaysnack} from "./thursdaysnack.jpg"

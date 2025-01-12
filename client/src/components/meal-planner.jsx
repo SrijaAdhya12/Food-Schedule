@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Coffee, UtensilsCrossed, ChefHat } from 'lucide-react'
+import { Coffee, UtensilsCrossed, ChefHat, Sandwich } from 'lucide-react'
 import { foodData } from '@/data/food.js'
 import { ModeToggle } from './mode-toggle'
 
@@ -50,6 +50,12 @@ const MealPlanner = () => {
                     icon={<UtensilsCrossed className="h-6 w-6" />}
                     items={foodData[selectedDay].lunch.items}
                     image={foodData[selectedDay].lunch.image}
+                />
+                <MealCard
+                    title="Snacks"
+                    icon={<Sandwich className="h-6 w-6" />}
+                    items={foodData[selectedDay].snack.items}
+                    image={foodData[selectedDay].snack.image}
                 />
                 <MealCard
                     title="Dinner"
