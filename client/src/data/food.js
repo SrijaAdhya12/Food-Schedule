@@ -1,4 +1,4 @@
-import { yellowrice,suji,ruti,dosa,samosa,pakora,rice,rutibhindi,biriyani,chickencurry,wednesdaylunch } from "../assets";
+import { yellowrice,suji,ruti,dosa,samosa,pakora,rice,rutibhindi,biriyani,chickencurry,wednesdaylunch,thursdaybreakfast,tuesdaydinner,thursdaydinner,sundaybreak,fridaybreak,fridaydinner } from "../assets";
 
 export const foodData = {
 	Monday: {
@@ -26,7 +26,7 @@ export const foodData = {
 		},
 		dinner: {
 			items: ['Stir-fry tofu', 'Broccoli', 'Noodles'],
-			image: 'https://www.shutterstock.com/image-photo/bowl-rajma-plate-kulchas-260nw-464249636.jpg'
+			image: tuesdaydinner
 		}
 	},
 	Wednesday: {
@@ -46,7 +46,7 @@ export const foodData = {
 	Thursday: {
 		breakfast: {
 			items: ['Pancakes', 'Maple syrup', 'Banana'],
-			image: 'https://media.istockphoto.com/id/1049742868/photo/suji-sooji-halwa-puri-or-shira-poori-with-black-chana-masala-breakfast-served-in-a-plate-and.jpg?s=612x612&w=0&k=20&c=Mnw872e_UVChheH2LYKWQ7Tg-duXF9D5pkgwk4zxq-c='
+			image: thursdaybreakfast
 		},
 		lunch: {
 			items: ['Vegetarian chili', 'Cornbread', 'Mixed berries'],
@@ -54,13 +54,13 @@ export const foodData = {
 		},
 		dinner: {
 			items: ['Roast chicken', 'Sweet potato', 'Green beans'],
-			image: 'https://www.shutterstock.com/image-photo/vegetarian-indian-thali-home-food-600nw-1939889209.jpg'
+			image: thursdaydinner
 		}
 	},
 	Friday: {
 		breakfast: {
 			items: ['Breakfast burrito', 'Salsa', 'Orange juice'],
-			image: 'https://d2gtpjxvvd720b.cloudfront.net/system/newsletter_item/social_image/238/default_FB-hungry-girl-healthy-breakfast-cauliflower-fried-rice-recipe.jpg'
+			image: fridaybreak
 		},
 		lunch: {
 			items: ['Caprese sandwich', 'Cherry tomatoes', 'Balsamic glaze'],
@@ -68,7 +68,7 @@ export const foodData = {
 		},
 		dinner: {
 			items: ['Grilled shrimp skewers', 'Couscous', 'Grilled zucchini'],
-			image: 'https://media.istockphoto.com/id/1406762378/photo/homemade-chapati-roti-flatbread-with-vegetarian-rajma-curry-greens-and-garlic-on-wood.jpg?s=612x612&w=0&k=20&c=MZzYlOJKScyErNRLNVZR7PpiHmKVB_WYLtCS0FMbYdY='
+			image: fridaydinner
 		}
 	},
 	Saturday: {
@@ -88,7 +88,7 @@ export const foodData = {
 	Sunday: {
 		breakfast: {
 			items: ['Eggs Benedict', 'Hollandaise sauce', 'Hash browns'],
-			image: 'https://img.freepik.com/premium-photo/authentic-masala-dosa-breakfast-white-background-masala-dosa-picture_1020697-133996.jpg'
+			image: sundaybreak
 		},
 		lunch: {
 			items: ['Grilled cheese sandwich', 'Tomato soup', 'Pickle'],

@@ -5,6 +5,7 @@ import { Coffee, UtensilsCrossed, ChefHat } from 'lucide-react'
 import { foodData } from '@/data/food.js'
 import { ModeToggle } from './mode-toggle'
 
+
 const MealPlanner = () => {
     const [selectedDay, setSelectedDay] = useState('Monday')
 
