@@ -33,13 +33,13 @@ export const foodData = {
 			image: tuesdaysnack
 		},
 		dinner: {
-			items: ['Stir-fry tofu', 'Broccoli', 'Noodles'],
+			items: ['Ruti', 'Daal'],
 			image: tuesdaydinner
 		}
 	},
 	Wednesday: {
 		breakfast: {
-			items: ['Smoothie bowl', 'Granola', 'Almond milk'],
+			items: ['Idli', 'Sambar'],
 			image: wedbreak
 		},
 		lunch: {
@@ -75,7 +75,7 @@ export const foodData = {
 	},
 	Friday: {
 		breakfast: {
-			items: ['Breakfast burrito', 'Salsa', 'Orange juice'],
+			items: ['Yellow Rice', 'Sambar', 'Tea'],
 			image: fridaybreak
 		},
 		lunch: {
@@ -93,7 +93,7 @@ export const foodData = {
 	},
 	Saturday: {
 		breakfast: {
-			items: ['dosa', 'Whipped cream', 'Strawberries'],
+			items: ['dosa', 'Sambar'],
 			image: dosa
 		},
 		lunch: {
@@ -105,7 +105,7 @@ export const foodData = {
 			image: 'https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2823%2Ftrend20200504161425.jpg'
 		},
 		dinner: {
-			items: ['Beef burger', 'Sweet potato fries', 'Coleslaw'],
+			items: ['Ruti', 'Curry'],
 			image: 'https://foodgypsy.ca/wp-content/uploads/2013/07/Trini_Roti_Recipe_Food_Gypsy_2013-1.jpg'
 		}
 	},
